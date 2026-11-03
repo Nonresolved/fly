@@ -1,0 +1,16 @@
+{
+ "id": "proj_upper",
+ "ts": "2026-11-03T17:51:34.244Z",
+ "nonce": "cXG3LxEinKQ4IdTNyiLhN3oUbchJM3SM",
+ "account": "tid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: ADMIN.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: cXG3LxEinKQ4IdTNyiLhN3oUbchJM3SM\nIssued At: 2026-11-03T17:51:34.127Z\nExpiration Time: 2026-11-03T17:56:34.127Z",
+ "signature": "IJeeTdtzKNPvdwpxXNp31HNPgHJ/wfgmZElmuLbbDQQ5A2PKNjFSEbbXp8YLnQswYbjrWNEwkatBUNde4wxku5g=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: malformed\"}",
+ "setcookie": "",
+ "xff": "10.98.60.89",
+ "retries": 0
+}
