@@ -1,0 +1,15 @@
+{
+ "id": "claim_published_sig",
+ "ts": "2026-11-03T17:41:33.160Z",
+ "nonce": "1gGqRJAoDqfh_aPZiMH40WgVdViqY1zB",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "IG9XffIZCO9Efqjm6/qdSfUyAY+MSpKSJvWpaEQSDPKXYczM58occrGGYUKnsSD7uyJDEp5GAVhTVZ6URohU6dI=",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: 1gGqRJAoDqfh_aPZiMH40WgVdViqY1zB\nIssued At: 2026-11-03T17:41:33.053Z\nExpiration Time: 2026-11-03T17:46:33.053Z",
+ "signature": "H7YXQYRYWHrCD/CFnv5qJkPFiJ0ABZhDNXC32DWSSh0PSc9OI0nqDN4YtKWsCLJ/VbXNI1M6Z0WiupLaGHsDbS4=",
+ "status": 403,
+ "body": "{\"error\":\"this Theseus ID is not an admin of this site\"}",
+ "setcookie": "",
+ "xff": "10.81.138.135",
+ "retries": 0
+}
