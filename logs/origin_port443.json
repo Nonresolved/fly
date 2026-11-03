@@ -1,0 +1,16 @@
+{
+ "id": "origin_port443",
+ "ts": "2026-11-03T17:51:44.478Z",
+ "nonce": "EvkhMaCZZG3DDOYOSsSIeoBMhY80LVMc",
+ "account": "tid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh\n\nURI: https://admin.coin-spectrum.com:443/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com:443\nNonce: EvkhMaCZZG3DDOYOSsSIeoBMhY80LVMc\nIssued At: 2026-11-03T17:51:44.362Z\nExpiration Time: 2026-11-03T17:56:44.362Z",
+ "signature": "IORenJihgWHtY2Qdy+jY/ShwIH6YDy3HCWuvan6INSxqWFD2hvwXEYMFAhPQ80s2Be8KxxB5acC28oM146NGcG0=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: malformed\"}",
+ "setcookie": "",
+ "xff": "10.152.58.33",
+ "retries": 0
+}
