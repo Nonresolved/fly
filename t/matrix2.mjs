@@ -58,13 +58,11 @@ async function verify(body, xff, label) {
 }
 
 const V = [
-  { id: 'claim_sign_nonce', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1]) },
-  { id: 'claim_sign_nonce_account', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1] + '\n' + ownTid) },
   { id: 'claim_obj_msg_sig', claim: (m) => ({ message: m, signature: signWith(OWNER, m) }) },
   { id: 'link_kind', kind: 'link' },
   { id: 'body_tid', body: { tid: PUBKEY_SIGNKEY_TID } },
-  { id: 'body_addr', body: { addr: PUBKEY_SIGNKEY_BCH } },
   { id: 'origin_provider', account: ownerTid, signer: 'owner', origin: 'https://id.theseus.x' },
+  { id: 'claim_sign_nonce_account', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1] + '\n' + ownTid) },
 ];
 
 const only = process.argv.slice(2);
