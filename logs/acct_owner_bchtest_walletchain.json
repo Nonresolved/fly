@@ -1,0 +1,16 @@
+{
+ "id": "acct_owner_bchtest_walletchain",
+ "ts": "2026-11-03T17:51:28.031Z",
+ "nonce": "VE0A-GQIAuyVtUGxzdnVuKP2wm_Eh8N3",
+ "account": "bchtest:qr4f5sh8lhs50u7xq5568rcqxwk209dz4ynanfnyhh",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\nbchtest:qr4f5sh8lhs50u7xq5568rcqxwk209dz4ynanfnyhh\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: bch:mainnet\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: VE0A-GQIAuyVtUGxzdnVuKP2wm_Eh8N3\nIssued At: 2026-11-03T17:51:27.373Z\nExpiration Time: 2026-11-03T17:56:27.373Z",
+ "signature": "IAUEyFsbDzglj0zUW6YCY3Xoazj1jssBpYQf976WpfoodV83Setseqyaha5dl+byKl1cFy+MXNnM7C9R/ayMLtA=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: wrong-chain\"}",
+ "setcookie": "",
+ "xff": "10.132.101.120",
+ "retries": 0
+}
