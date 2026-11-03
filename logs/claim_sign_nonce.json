@@ -1,0 +1,13 @@
+{
+ "id": "claim_sign_nonce",
+ "ts": "2026-11-03T17:49:09.198Z",
+ "nonce": "nxBkpHAgreKPdiFFuFWuIsuCYlRe7MbN",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "H1OC+CAN3c5y99tori/ZKpkYB/Acv2jzm/dpcDbg6OkTCjyrp7IC9Maon5dSEhF5j2qz9d/yyKh4AdI+lB+CC8s=",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: nxBkpHAgreKPdiFFuFWuIsuCYlRe7MbN\nIssued At: 2026-11-03T17:48:59.478Z\nExpiration Time: 2026-11-03T17:53:59.478Z",
+ "signature": "ILKH3/CKb4/q08YLsWehHgzSkJEnqnT0DAA/RpE/9o1mZqqNyxhDeOGmDVhiQDvRSuul3GDN/Jm1zztf+hIC7qk=",
+ "extra": null,
+ "status": 429,
+ "body": "still limited"
+}
