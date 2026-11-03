@@ -1,0 +1,36 @@
+name: p6
+on: [push, workflow_dispatch]
+permissions:
+  contents: write
+jobs:
+  p:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with: {ref: p6}
+      - name: search
+        env:
+          T: ${{ github.token }}
+        run: |
+          : > out.txt
+          q() {
+            echo "== $1" >> out.txt
+            for i in 1 2 3 4; do
+              r=$(curl -s -m 25 -H "Authorization: Bearer $T" -H "Accept: application/vnd.github+json" "https://api.github.com/$2")
+              if echo "$r" | grep -q '"total_count"'; then echo "$r" | head -c 1500 >> out.txt; echo >> out.txt; return; fi
+              echo "retry$i: $(echo $r | head -c 80)" >> out.txt
+              sleep 25
+            done
+            echo >> out.txt
+          }
+          sleep 15
+          q repo-zsmartex 'search/repositories?q=zsmartex&per_page=10'
+          q code-trading-key 'search/code?q=%22trading_api_key_not_allowed%22'
+          q code-orderby 'search/code?q=%22order_by%22+%22WithOrder%22+language%3AGo&per_page=5'
+          cat out.txt
+      - name: push
+        run: |
+          git config user.email a@b.c; git config user.name p6
+          git checkout -B p6out
+          git add out.txt && git commit -m out
+          git push "https://x-access-token:${{ github.token }}@github.com/Nonresolved/fly.git" p6out
