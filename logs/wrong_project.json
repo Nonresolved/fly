@@ -1,0 +1,16 @@
+{
+ "id": "wrong_project",
+ "ts": "2026-11-03T17:48:35.537Z",
+ "nonce": "f18LKSbj_d8hX8wJd93_8s-q7XDK6l9C",
+ "account": "tid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qr4f5sh8lhs50u7xq5568rcqxwk209dz4y3lmh77vh\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: f18LKSbj_d8hX8wJd93_8s-q7XDK6l9C\nIssued At: 2026-11-03T17:48:34.801Z\nExpiration Time: 2026-11-03T17:53:34.801Z",
+ "signature": "IJmSWE7gh+35Plr1Q0mTILyOAsIas+t4whbQXEzDTBBNaP2bSValm0r+CPy6b3M0Wdnda/rIGIF1meAlUfd7Jwc=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: wrong-project\"}",
+ "setcookie": "",
+ "xff": "10.46.112.152",
+ "retries": 0
+}
