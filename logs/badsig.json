@@ -1,0 +1,16 @@
+{
+ "id": "badsig",
+ "ts": "2026-11-03T17:48:41.164Z",
+ "nonce": "atYEWq0ITA_ij1Av2hPv1QLwHE2QJ-MV",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: atYEWq0ITA_ij1Av2hPv1QLwHE2QJ-MV\nIssued At: 2026-11-03T17:48:41.046Z\nExpiration Time: 2026-11-03T17:53:41.046Z",
+ "signature": "AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: bad-signature\"}",
+ "setcookie": "",
+ "xff": "10.118.199.141",
+ "retries": 0
+}
