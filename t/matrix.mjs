@@ -1,5 +1,5 @@
 import { createHash } from 'node:crypto';
-import { secp256k1, hash160, encodeCashAddress, CashAddressType } from '/workspace/signer/node_modules/@bitauth/libauth/build/index.js';
+import { secp256k1, hash160, encodeCashAddress, CashAddressType } from '@bitauth/libauth';
 import fs from 'node:fs';
 
 const OWNER_PRIV = '687c95fed064682b60215b6528e660fad3daeec18898d9f7044ba3d0b5440e6c'; // cR5owJHL5…
