@@ -1,0 +1,16 @@
+{
+ "id": "nonce_cs",
+ "ts": "2026-11-03T17:48:56.034Z",
+ "nonce": "tret67cZztBXfzLzLA4WQrRJ",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: tret67cZztBXfzLzLA4WQrRJ\nIssued At: 2026-11-03T17:48:55.350Z\nExpiration Time: 2026-11-03T17:53:55.350Z",
+ "signature": "H2aS1BY+iqZW4CvlOLRo2hBfZLMDQB7tc3v3AKtO4crKAVIKOmuNCWT9dp+h9OUxFNfiXTztZndXFcDIizL+wdI=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: bad-nonce\"}",
+ "setcookie": "",
+ "xff": "10.5.5.5",
+ "retries": 0
+}
