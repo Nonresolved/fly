@@ -58,20 +58,13 @@ async function verify(body, xff, label) {
 }
 
 const V = [
-  { id: 'wrong_project', account: ownerTid, signer: 'owner', proj: 'coin-spectrum.com' },
-  { id: 'badsig', sig: 'badsig' },
-  { id: 'body_account_signkey', body: { account: PUBKEY_SIGNKEY_TID } },
-  { id: 'body_account_owner', body: { account: ownerTid } },
-  { id: 'nonce_cs', nonceFrom: 'cs' },
   { id: 'claim_sign_nonce', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1]) },
   { id: 'claim_sign_nonce_account', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1] + '\n' + ownTid) },
   { id: 'claim_obj_msg_sig', claim: (m) => ({ message: m, signature: signWith(OWNER, m) }) },
   { id: 'link_kind', kind: 'link' },
-  { id: 'acct_owner_bchtest_walletchain', account: OWNER_BCHTEST, signer: 'owner', chain: 'bch:mainnet' },
-  { id: 'proj_upper', account: ownerTid, signer: 'owner', proj: 'ADMIN.coin-spectrum.com' },
-  { id: 'origin_upper', account: ownerTid, signer: 'owner', origin: 'https://ADMIN.coin-spectrum.com' },
-  { id: 'origin_port443', account: ownerTid, signer: 'owner', origin: 'https://admin.coin-spectrum.com:443' },
-  { id: 'statement_inject', account: ownerTid, signer: 'owner', statement: 'PROMETHEUS-ADMIN-LOGIN' },
+  { id: 'body_tid', body: { tid: PUBKEY_SIGNKEY_TID } },
+  { id: 'body_addr', body: { addr: PUBKEY_SIGNKEY_BCH } },
+  { id: 'origin_provider', account: ownerTid, signer: 'owner', origin: 'https://id.theseus.x' },
 ];
 
 const only = process.argv.slice(2);
