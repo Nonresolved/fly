@@ -1,13 +1,16 @@
 {
  "id": "claim_sign_nonce",
- "ts": "2026-11-03T17:49:09.198Z",
- "nonce": "nxBkpHAgreKPdiFFuFWuIsuCYlRe7MbN",
+ "ts": "2026-11-03T17:54:55.856Z",
+ "nonce": "_Pijlq1ZA9fJDXsODsGFS1kCg6_nHlzO",
  "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
  "claimType": "str",
- "claim": "H1OC+CAN3c5y99tori/ZKpkYB/Acv2jzm/dpcDbg6OkTCjyrp7IC9Maon5dSEhF5j2qz9d/yyKh4AdI+lB+CC8s=",
- "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: nxBkpHAgreKPdiFFuFWuIsuCYlRe7MbN\nIssued At: 2026-11-03T17:48:59.478Z\nExpiration Time: 2026-11-03T17:53:59.478Z",
- "signature": "ILKH3/CKb4/q08YLsWehHgzSkJEnqnT0DAA/RpE/9o1mZqqNyxhDeOGmDVhiQDvRSuul3GDN/Jm1zztf+hIC7qk=",
+ "claim": "H3OoK7m5I0x0+UEgMLyWsOMbGSLekAjP6WuFE5Sq2mQHK8XWaG9RZxROFuujUfMqa52b3b6+JlBTl2AEmWA6J3w=",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: _Pijlq1ZA9fJDXsODsGFS1kCg6_nHlzO\nIssued At: 2026-11-03T17:54:55.059Z\nExpiration Time: 2026-11-03T17:59:55.059Z",
+ "signature": "H/uLFegi/HRJb//zZWpzbgphu7hW+8G65hvKqf7dPlPaMp/+XE/y6Rd9oSRqvtNBv8AR9i/voOByTpgKae8SK8Q=",
  "extra": null,
- "status": 429,
- "body": "still limited"
+ "status": 403,
+ "body": "{\"error\":\"this Theseus ID is not an admin of this site\"}",
+ "setcookie": "",
+ "xff": "10.115.155.35",
+ "retries": 0
 }
