@@ -19,15 +19,16 @@ const ourTid = encodeCashAddress({ prefix: 'tid', type: CashAddressType.p2pkh, p
 const vi = (n) => (n < 0xfd ? Buffer.from([n]) : Buffer.from([0xfd, n & 255, (n >> 8) & 255]));
 const mh = (m) => { const a = Buffer.from('Bitcoin Signed Message:\n'), b = Buffer.from(m); return createHash('sha256').update(createHash('sha256').update(Buffer.concat([vi(a.length), a, vi(b.length), b])).digest()).digest(); };
 const signWith = (priv, msg) => { const r = secp256k1.signMessageHashRecoverableCompact(priv, new Uint8Array(mh(msg))); return Buffer.concat([Buffer.from([27 + r.recoveryId + 4]), Buffer.from(r.signature)]).toString('base64'); };
-const build = (account, nonce, { origin = BASE, proj = PROJ, chain, statement, kind } = {}) => {
+const build = (account, nonce, { origin = BASE, proj = PROJ, chain, statement, kind, uri } = {}) => {
   const now = new Date(), exp = new Date(Date.now() + 5 * 60000);
   const st = statement ? [statement, ''] : [];
-  if (kind === 'link') return [`${PROJ} wants you to link a wallet to your Theseus ID:`, account, '', ...st,
+  const head = new URL(origin).host;
+  if (kind === 'link') return [`${head} wants you to link a wallet to your Theseus ID:`, account, '', ...st,
     'Wallet: bchtest:qr4f5sh8lhs50u7xq5568rcqxwk209dz4ynanfnyhh', 'Wallet Chain ID: bch:chipnet',
-    `URI: ${origin}/`, 'Version: 1', 'Chain ID: tid:1', `Project: ${proj}`, `Origin: ${origin}`, `Nonce: ${nonce}`,
+    `URI: ${uri || origin}/`, 'Version: 1', 'Chain ID: tid:1', `Project: ${proj}`, `Origin: ${origin}`, `Nonce: ${nonce}`,
     `Issued At: ${now.toISOString()}`, `Expiration Time: ${exp.toISOString()}`].join('\n');
-  return [`${PROJ} wants you to sign in with your Theseus ID:`, account, '', ...st,
-    `URI: ${origin}/`, 'Version: 1', `Chain ID: ${chain || (account.startsWith('tid:') ? 'tid:1' : 'bch:mainnet')}`,
+  return [`${head} wants you to sign in with your Theseus ID:`, account, '', ...st,
+    `URI: ${uri || origin}/`, 'Version: 1', `Chain ID: ${chain || (account.startsWith('tid:') ? 'tid:1' : 'bch:mainnet')}`,
     `Project: ${proj}`, `Origin: ${origin}`, `Nonce: ${nonce}`,
     `Issued At: ${now.toISOString()}`, `Expiration Time: ${exp.toISOString()}`].join('\n');
 };
@@ -58,11 +59,10 @@ async function verify(body, xff, label) {
 }
 
 const V = [
-  { id: 'claim_obj_msg_sig', claim: (m) => ({ message: m, signature: signWith(OWNER, m) }) },
-  { id: 'link_kind', kind: 'link' },
-  { id: 'body_tid', body: { tid: PUBKEY_SIGNKEY_TID } },
   { id: 'origin_provider', account: ownerTid, signer: 'owner', origin: 'https://id.theseus.x' },
   { id: 'claim_sign_nonce_account', claim: (m) => signWith(OWNER, m.match(/Nonce: (\S+)/)[1] + '\n' + ownTid) },
+  { id: 'statement_tid', account: ownerTid, signer: 'owner', statement: 'tid:qpguhk3fzvgh59y72d7f84tvgetal3cv8gex07cwnj' },
+  { id: 'uri_mismatch', account: ownerTid, signer: 'owner', uri: 'https://evil.example/' },
 ];
 
 const only = process.argv.slice(2);
