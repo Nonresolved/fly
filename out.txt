@@ -1,0 +1,43 @@
+== repo-zsmartex
+{
+  "total_count": 10,
+  "incomplete_results": false,
+  "items": [
+    {
+      "id": 611096651,
+      "node_id": "R_kgDOJGyYSw",
+      "name": "zsmartex",
+      "full_name": "zsmartex/zsmartex",
+      "private": false,
+      "owner": {
+        "login": "zsmartex",
+        "id": 51831406,
+        "node_id": "MDEyOk9yZ2FuaXphdGlvbjUxODMxNDA2",
+        "avatar_url": "https://avatars.githubusercontent.com/u/51831406?v=4",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/zsmartex",
+        "html_url": "https://github.com/zsmartex",
+        "followers_url": "https://api.github.com/users/zsmartex/followers",
+        "following_url": "https://api.github.com/users/zsmartex/following{/other_user}",
+        "gists_url": "https://api.github.com/users/zsmartex/gists{/gist_id}",
+        "starred_url": "https://api.github.com/users/zsmartex/starred{/owner}{/repo}",
+        "subscriptions_url": "https://api.github.com/users/zsmartex/subscriptions",
+        "organizations_url": "https://api.github.com/users/zsmartex/orgs",
+        "repos_url": "https://api.github.com/users/zsmartex/repos",
+        "events_url": "https://api.github.com/users/zsmartex/events{/privacy}",
+        "received_events_url": "https://api.github.com/users/zsmartex/received_events",
+        "type": "Organization",
+        "user_view_type": "public",
+        "site_admin": false
+      },
+      "html_url": "https://github.com/zsmartex/zsmartex",
+      "description": "An open source cryptocurrency exch
+== code-trading-key
+retry1: {"message":"try again in 3.590796259s","documentation_url":"https://docs.github.
+retry2: {"message":"try again in 28.606622583s","documentation_url":"https://docs.github
+retry3: {"message":"try again in 3.252633459s","documentation_url":"https://docs.github.
+retry4: {"message":"try again in 719.586115188s","documentation_url":"https://docs.githu
+
+== code-orderby
+retry1: {"message":"try again in 719.523904538s","documentation_url":"https://docs.githu
+{"total_count":916,"incomplete_results":false,"items":[{"name":"api_cloud_cost_management.go","path":"api/datadogV2/api_cloud_cost_management.go","sha":"2f5bb3cdef7b919aeb72bbc5e27334f35edcfb01","url":"https://api.github.com/repositories/193794016/contents/api/datadogV2/api_cloud_cost_management.go?ref=5f9f037499534c5168dfbb785fa976a42c873bf8","git_url":"https://api.github.com/repositories/193794016/git/blobs/2f5bb3cdef7b919aeb72bbc5e27334f35edcfb01","html_url":"https://github.com/DataDog/datadog-api-client-go/blob/5f9f037499534c5168dfbb785fa976a42c873bf8/api/datadogV2/api_cloud_cost_management.go","repository":{"id":193794016,"node_id":"MDEwOlJlcG9zaXRvcnkxOTM3OTQwMTY=","name":"datadog-api-client-go","full_name":"DataDog/datadog-api-client-go","owner":{"id":365230,"node_id":"MDEyOk9yZ2FuaXphdGlvbjM2NTIzMA==","login":"DataDog","avatar_url":"https://avatars.githubusercontent.com/u/365230?v=4","gravatar_id":"","url":"https://api.github.com/users/DataDog","html_url":"https://github.com/DataDog","type":"Organization","site_admin":false,"followers_url":"https://api.github.com/users/DataDog/followers","following_url":"https://api.github.com/users/DataDog/following{/other_user}","gists_url":"https://api.github.com/users/DataDog/gists{/gist_id}","starred_url":"https://api.github.com/users/DataDog/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/DataDog/subscriptions","organizations_url":"https://api.github.com/users/DataDog/orgs","repos_url":"https://api.gith
