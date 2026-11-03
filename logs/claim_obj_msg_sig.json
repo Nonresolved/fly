@@ -1,0 +1,19 @@
+{
+ "id": "claim_obj_msg_sig",
+ "ts": "2026-11-03T17:57:54.662Z",
+ "nonce": "Wf4la7fvLbWyNQTNozX2LWv2s7VkIOau",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "object",
+ "claim": {
+  "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: Wf4la7fvLbWyNQTNozX2LWv2s7VkIOau\nIssued At: 2026-11-03T17:57:53.825Z\nExpiration Time: 2026-11-03T18:02:53.825Z",
+  "signature": "H5Livvms1Lva2cM3xyI0i2DFcYTTcgfmD9IyUuhHUdXPZxk8fqwvl7zdVuHDR8SZrPilB6k8dlKWV/7zpuD7KYo="
+ },
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: Wf4la7fvLbWyNQTNozX2LWv2s7VkIOau\nIssued At: 2026-11-03T17:57:53.825Z\nExpiration Time: 2026-11-03T18:02:53.825Z",
+ "signature": "H/WMTsoLCWStb9Fii9pz5CoLTQnSQFAP883menDCoOW5CVz0FB2I5M10COIVhaHxTmxrmWpSOamtHgmpVkJNeXA=",
+ "extra": null,
+ "status": 403,
+ "body": "{\"error\":\"this Theseus ID is not an admin of this site\"}",
+ "setcookie": "",
+ "xff": "10.32.94.177",
+ "retries": 0
+}
