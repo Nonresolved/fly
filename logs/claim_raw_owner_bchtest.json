@@ -1,0 +1,15 @@
+{
+ "id": "claim_raw_owner_bchtest",
+ "ts": "2026-11-03T17:40:07.298Z",
+ "nonce": "C1LrolZtfQ2d3QaODtHT9QjCXugy78L3",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "bchtest:qr4f5sh8lhs50u7xq5568rcqxwk209dz4ynanfnyhh",
+ "message": "admin.coin-spectrum.com wants you to sign in with your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: C1LrolZtfQ2d3QaODtHT9QjCXugy78L3\nIssued At: 2026-11-03T17:40:07.186Z\nExpiration Time: 2026-11-03T17:45:07.186Z",
+ "signature": "H4kTssIspG4F+vcGIqw+zAz72EnoI+/DoUv6CVCYLc6YVlrh7R45fVSl4QHbbGL69psVey1YdhuiqbRtG5u6wWQ=",
+ "status": 403,
+ "body": "{\"error\":\"this Theseus ID is not an admin of this site\"}",
+ "setcookie": "",
+ "xff": "10.197.142.154",
+ "retries": 0
+}
