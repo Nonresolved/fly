@@ -1,0 +1,16 @@
+{
+ "id": "link_kind",
+ "ts": "2026-11-03T17:58:00.596Z",
+ "nonce": "XBWx2HZx0i9v_bq-7Ov9fN-1BAzC4EJA",
+ "account": "tid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs",
+ "claimType": "str",
+ "claim": "",
+ "message": "admin.coin-spectrum.com wants you to link a wallet to your Theseus ID:\ntid:qzcwkt0xu726y00m35mfdd7832tnrcmzyug5726yzs\n\nWallet: bchtest:qr4f5sh8lhs50u7xq5568rcqxwk209dz4ynanfnyhh\nWallet Chain ID: bch:chipnet\nURI: https://admin.coin-spectrum.com/\nVersion: 1\nChain ID: tid:1\nProject: admin.coin-spectrum.com\nOrigin: https://admin.coin-spectrum.com\nNonce: XBWx2HZx0i9v_bq-7Ov9fN-1BAzC4EJA\nIssued At: 2026-11-03T17:58:00.439Z\nExpiration Time: 2026-11-03T18:03:00.439Z",
+ "signature": "INMZ6RelLlL+y2gJVSD/NTLVm8zlulBzgzPDF0XxEDJVIzvzRHe2JJej30h4luX0aj9i5OyYiEU9bzcocB9gLBY=",
+ "extra": null,
+ "status": 401,
+ "body": "{\"error\":\"sign-in refused: malformed\"}",
+ "setcookie": "",
+ "xff": "10.165.83.133",
+ "retries": 0
+}
