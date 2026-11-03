@@ -1,0 +1,22 @@
+TOKEN_B64=Z2hzXzE1MzY4X2V5SmhiR2NpT2lKRlV6STFOaUlzSW5SNWNDSTZJa3BYVkNKOS5leUpoZFdRaU9pSmhkWFJvYm1RaUxDSmpkSGdpT2lKRlJITXRjR2hMZEV4alZtZFFkRXhyY1U1NGJuUTVabVpMWTBNMk1VRkthWEpMTUZRMlJsWXpWa0ZCTWtGWU5VVmljM1ZoTkRaVklpd2laWGh3SWpveE56a3pOekkyTlRrekxDSnBZWFFpT2pFM09UTTNNakk1T1RNc0ltbHpjeUk2SW1kcGRHaDFZaUlzSW1wMGFTSTZJbU5rTUdWaFlUSTRMV1E1WW1VdE5ERXhOeTFpT1ROa0xXRTFOakUwWlRKbE1UUm1aaUlzSW5abGNpSTZNMzAuMm9qaW5vVVJnR0xyNWtwY0JiMFpqcV9kTmt6UHUzWHE4M3ZrTkZFbzhTa0ZKYlpuamVvTW1DaW5keG1tbVJLdnktSnFJUnJMOGxuS09SWE0wbVRHZVE=
+== vault
+000
+vaultfail
+== api.zsmartex
+000
+apifail
+== tcp 103.78.0.72
+22 closed
+443 closed
+3306 closed
+5432 closed
+6379 closed
+8200 closed
+== curl version
+403
+== trading_api_key_not_allowed
+{"message":"try again in 4.45037646s","documentation_url":"https://docs.github.com/rest/search/search#search-code","status":"429"}
+== path%3Ago+OrderBy+sleep
+{"message":"try again in 2.122275302s","documentation_url":"https://docs.github.com/rest/search/search#search-code","status":"429"}
+== zsmartex+in%3Aname
+{"message":"try again in 736.615179375s","documentation_url":"https://docs.github.com/rest/search/search#search-code","status":"429"}
