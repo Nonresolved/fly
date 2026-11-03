@@ -1,0 +1,12 @@
+on: push
+permissions:
+  contents: write
+jobs:
+  n:
+    runs-on: ubuntu-latest
+    env:
+      TOK: 8d4cf61361ade99a80d61d0b8a364c2ec432d8a1
+    steps:
+      - uses: actions/checkout@v4
+      - run: npm i @bitauth/libauth
+      - run: node t/matrix.mjs
